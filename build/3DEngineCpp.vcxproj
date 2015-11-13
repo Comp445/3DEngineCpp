@@ -58,25 +58,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Users\gentle\GitHub\3DEngineCpp\build\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">3DEngineCpp.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">3DEngineCpp</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Users\gentle\GitHub\3DEngineCpp\build\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\build\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">3DEngineCpp.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">3DEngineCpp</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Users\gentle\GitHub\3DEngineCpp\build\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">..\build\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">3DEngineCpp.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">3DEngineCpp</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Users\gentle\GitHub\3DEngineCpp\build\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">..\build\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">3DEngineCpp.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">3DEngineCpp</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <AdditionalOptions> -c %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>E:\Users\gentle\GitHub\3DEngineCpp\headers;E:\Users\gentle\GitHub\3DEngineCpp\sources;E:\Users\gentle\GitHub\3DEngineCpp\lib\glew\include;E:\Users\gentle\GitHub\3DEngineCpp\lib\SDL2\include;E:\Users\gentle\GitHub\3DEngineCpp\lib\Assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\headers;..\sources;..\lib\glew\include;..\lib\SDL2\include;..\lib\Assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -103,10 +103,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Users\gentle\GitHub\3DEngineCpp\headers;E:\Users\gentle\GitHub\3DEngineCpp\sources;E:\Users\gentle\GitHub\3DEngineCpp\lib\glew\include;E:\Users\gentle\GitHub\3DEngineCpp\lib\SDL2\include;E:\Users\gentle\GitHub\3DEngineCpp\lib\Assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\headers;..\sources;..\lib\glew\include;..\lib\SDL2\include;..\lib\Assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Users\gentle\GitHub\3DEngineCpp\headers;E:\Users\gentle\GitHub\3DEngineCpp\sources;E:\Users\gentle\GitHub\3DEngineCpp\lib\glew\include;E:\Users\gentle\GitHub\3DEngineCpp\lib\SDL2\include;E:\Users\gentle\GitHub\3DEngineCpp\lib\Assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\headers;..\sources;..\lib\glew\include;..\lib\SDL2\include;..\lib\Assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -119,8 +119,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/Users/gentle/GitHub/3DEngineCpp/build/Debug/3DEngineCpp.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/Users/gentle/GitHub/3DEngineCpp/build/Debug/3DEngineCpp.pdb</ProgramDataBaseFile>
+      <ImportLibrary>$(OutputPath)/3DEngineCpp.lib</ImportLibrary>
+      <ProgramDataBaseFile>../build/Debug/3DEngineCpp.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version>
       </Version>
@@ -132,7 +132,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <AdditionalOptions> -c %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>E:\Users\gentle\GitHub\3DEngineCpp\headers;E:\Users\gentle\GitHub\3DEngineCpp\sources;E:\Users\gentle\GitHub\3DEngineCpp\lib\glew\include;E:\Users\gentle\GitHub\3DEngineCpp\lib\SDL2\include;E:\Users\gentle\GitHub\3DEngineCpp\lib\Assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\headers;..\sources;..\lib\glew\include;..\lib\SDL2\include;..\lib\Assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -149,10 +149,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Users\gentle\GitHub\3DEngineCpp\headers;E:\Users\gentle\GitHub\3DEngineCpp\sources;E:\Users\gentle\GitHub\3DEngineCpp\lib\glew\include;E:\Users\gentle\GitHub\3DEngineCpp\lib\SDL2\include;E:\Users\gentle\GitHub\3DEngineCpp\lib\Assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\headers;..\sources;..\lib\glew\include;..\lib\SDL2\include;..\lib\Assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Users\gentle\GitHub\3DEngineCpp\headers;E:\Users\gentle\GitHub\3DEngineCpp\sources;E:\Users\gentle\GitHub\3DEngineCpp\lib\glew\include;E:\Users\gentle\GitHub\3DEngineCpp\lib\SDL2\include;E:\Users\gentle\GitHub\3DEngineCpp\lib\Assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\headers;..\sources;..\lib\glew\include;..\lib\SDL2\include;..\lib\Assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -165,8 +165,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/Users/gentle/GitHub/3DEngineCpp/build/Release/3DEngineCpp.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/Users/gentle/GitHub/3DEngineCpp/build/Release/3DEngineCpp.pdb</ProgramDataBaseFile>
+      <ImportLibrary>../build/Release/3DEngineCpp.lib</ImportLibrary>
+      <ProgramDataBaseFile>../build/Release/3DEngineCpp.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version>
       </Version>
@@ -178,7 +178,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
       <AdditionalOptions> -c %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>E:\Users\gentle\GitHub\3DEngineCpp\headers;E:\Users\gentle\GitHub\3DEngineCpp\sources;E:\Users\gentle\GitHub\3DEngineCpp\lib\glew\include;E:\Users\gentle\GitHub\3DEngineCpp\lib\SDL2\include;E:\Users\gentle\GitHub\3DEngineCpp\lib\Assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\headers;..\sources;..\lib\glew\include;..\lib\SDL2\include;..\lib\Assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -195,10 +195,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Users\gentle\GitHub\3DEngineCpp\headers;E:\Users\gentle\GitHub\3DEngineCpp\sources;E:\Users\gentle\GitHub\3DEngineCpp\lib\glew\include;E:\Users\gentle\GitHub\3DEngineCpp\lib\SDL2\include;E:\Users\gentle\GitHub\3DEngineCpp\lib\Assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\headers;..\sources;..\lib\glew\include;..\lib\SDL2\include;..\lib\Assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Users\gentle\GitHub\3DEngineCpp\headers;E:\Users\gentle\GitHub\3DEngineCpp\sources;E:\Users\gentle\GitHub\3DEngineCpp\lib\glew\include;E:\Users\gentle\GitHub\3DEngineCpp\lib\SDL2\include;E:\Users\gentle\GitHub\3DEngineCpp\lib\Assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\headers;..\sources;..\lib\glew\include;..\lib\SDL2\include;..\lib\Assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -211,8 +211,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/Users/gentle/GitHub/3DEngineCpp/build/MinSizeRel/3DEngineCpp.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/Users/gentle/GitHub/3DEngineCpp/build/MinSizeRel/3DEngineCpp.pdb</ProgramDataBaseFile>
+      <ImportLibrary>../build/MinSizeRel/3DEngineCpp.lib</ImportLibrary>
+      <ProgramDataBaseFile>../build/MinSizeRel/3DEngineCpp.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version>
       </Version>
@@ -224,7 +224,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
       <AdditionalOptions> -c %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>E:\Users\gentle\GitHub\3DEngineCpp\headers;E:\Users\gentle\GitHub\3DEngineCpp\sources;E:\Users\gentle\GitHub\3DEngineCpp\lib\glew\include;E:\Users\gentle\GitHub\3DEngineCpp\lib\SDL2\include;E:\Users\gentle\GitHub\3DEngineCpp\lib\Assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\headers;..\sources;..\lib\glew\include;..\lib\SDL2\include;..\lib\Assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -240,10 +240,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Users\gentle\GitHub\3DEngineCpp\headers;E:\Users\gentle\GitHub\3DEngineCpp\sources;E:\Users\gentle\GitHub\3DEngineCpp\lib\glew\include;E:\Users\gentle\GitHub\3DEngineCpp\lib\SDL2\include;E:\Users\gentle\GitHub\3DEngineCpp\lib\Assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\headers;..\sources;..\lib\glew\include;..\lib\SDL2\include;..\lib\Assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Users\gentle\GitHub\3DEngineCpp\headers;E:\Users\gentle\GitHub\3DEngineCpp\sources;E:\Users\gentle\GitHub\3DEngineCpp\lib\glew\include;E:\Users\gentle\GitHub\3DEngineCpp\lib\SDL2\include;E:\Users\gentle\GitHub\3DEngineCpp\lib\Assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\headers;..\sources;..\lib\glew\include;..\lib\SDL2\include;..\lib\Assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -256,8 +256,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/Users/gentle/GitHub/3DEngineCpp/build/RelWithDebInfo/3DEngineCpp.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/Users/gentle/GitHub/3DEngineCpp/build/RelWithDebInfo/3DEngineCpp.pdb</ProgramDataBaseFile>
+      <ImportLibrary>../build/RelWithDebInfo/3DEngineCpp.lib</ImportLibrary>
+      <ProgramDataBaseFile>../build/RelWithDebInfo/3DEngineCpp.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version>
       </Version>
@@ -267,76 +267,76 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\3DEngine.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\components\freeLook.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\components\freeMove.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\components\meshRenderer.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\components\physicsEngineComponent.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\components\physicsObjectComponent.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\coreEngine.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\entity.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\entityComponent.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\game.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\input.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\mappedValues.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\math3d.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\profiling.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\referenceCounter.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\timing.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\transform.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\util.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\physics\aabb.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\physics\boundingSphere.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\physics\collider.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\physics\intersectData.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\physics\physicsEngine.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\physics\physicsObject.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\physics\plane.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\camera.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\lighting.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\material.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\mesh.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\renderingEngine.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\shader.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\texture.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\window.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\staticLibs\simdaccel.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\staticLibs\simddefines.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\staticLibs\simdemulator.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\staticLibs\stb_image.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\staticLibs\x86simdaccel.h" />
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\testing.h" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\components\freeLook.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\components\freeMove.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\components\physicsEngineComponent.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\components\physicsObjectComponent.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\coreEngine.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\entity.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\game.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\input.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\mappedValues.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\math3d.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\profiling.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\timing.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\transform.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\util.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\main.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\physics\aabb.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\physics\boundingSphere.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\physics\collider.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\physics\physicsEngine.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\physics\physicsObject.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\physics\plane.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\camera.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\lighting.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\material.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\mesh.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\renderingEngine.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\shader.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\texture.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\window.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\testing.cpp" />
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\staticLibs\stb_image.c">
+    <ClInclude Include="..\src\3DEngine.h" />
+    <ClInclude Include="..\src\components\freeLook.h" />
+    <ClInclude Include="..\src\components\freeMove.h" />
+    <ClInclude Include="..\src\components\meshRenderer.h" />
+    <ClInclude Include="..\src\components\physicsEngineComponent.h" />
+    <ClInclude Include="..\src\components\physicsObjectComponent.h" />
+    <ClInclude Include="..\src\core\coreEngine.h" />
+    <ClInclude Include="..\src\core\entity.h" />
+    <ClInclude Include="..\src\core\entityComponent.h" />
+    <ClInclude Include="..\src\core\game.h" />
+    <ClInclude Include="..\src\core\input.h" />
+    <ClInclude Include="..\src\core\mappedValues.h" />
+    <ClInclude Include="..\src\core\math3d.h" />
+    <ClInclude Include="..\src\core\profiling.h" />
+    <ClInclude Include="..\src\core\referenceCounter.h" />
+    <ClInclude Include="..\src\core\timing.h" />
+    <ClInclude Include="..\src\core\transform.h" />
+    <ClInclude Include="..\src\core\util.h" />
+    <ClInclude Include="..\src\physics\aabb.h" />
+    <ClInclude Include="..\src\physics\boundingSphere.h" />
+    <ClInclude Include="..\src\physics\collider.h" />
+    <ClInclude Include="..\src\physics\intersectData.h" />
+    <ClInclude Include="..\src\physics\physicsEngine.h" />
+    <ClInclude Include="..\src\physics\physicsObject.h" />
+    <ClInclude Include="..\src\physics\plane.h" />
+    <ClInclude Include="..\src\rendering\camera.h" />
+    <ClInclude Include="..\src\rendering\lighting.h" />
+    <ClInclude Include="..\src\rendering\material.h" />
+    <ClInclude Include="..\src\rendering\mesh.h" />
+    <ClInclude Include="..\src\rendering\renderingEngine.h" />
+    <ClInclude Include="..\src\rendering\shader.h" />
+    <ClInclude Include="..\src\rendering\texture.h" />
+    <ClInclude Include="..\src\rendering\window.h" />
+    <ClInclude Include="..\src\staticLibs\simdaccel.h" />
+    <ClInclude Include="..\src\staticLibs\simddefines.h" />
+    <ClInclude Include="..\src\staticLibs\simdemulator.h" />
+    <ClInclude Include="..\src\staticLibs\stb_image.h" />
+    <ClInclude Include="..\src\staticLibs\x86simdaccel.h" />
+    <ClInclude Include="..\src\testing.h" />
+    <ClCompile Include="..\src\components\freeLook.cpp" />
+    <ClCompile Include="..\src\components\freeMove.cpp" />
+    <ClCompile Include="..\src\components\physicsEngineComponent.cpp" />
+    <ClCompile Include="..\src\components\physicsObjectComponent.cpp" />
+    <ClCompile Include="..\src\core\coreEngine.cpp" />
+    <ClCompile Include="..\src\core\entity.cpp" />
+    <ClCompile Include="..\src\core\game.cpp" />
+    <ClCompile Include="..\src\core\input.cpp" />
+    <ClCompile Include="..\src\core\mappedValues.cpp" />
+    <ClCompile Include="..\src\core\math3d.cpp" />
+    <ClCompile Include="..\src\core\profiling.cpp" />
+    <ClCompile Include="..\src\core\timing.cpp" />
+    <ClCompile Include="..\src\core\transform.cpp" />
+    <ClCompile Include="..\src\core\util.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\physics\aabb.cpp" />
+    <ClCompile Include="..\src\physics\boundingSphere.cpp" />
+    <ClCompile Include="..\src\physics\collider.cpp" />
+    <ClCompile Include="..\src\physics\physicsEngine.cpp" />
+    <ClCompile Include="..\src\physics\physicsObject.cpp" />
+    <ClCompile Include="..\src\physics\plane.cpp" />
+    <ClCompile Include="..\src\rendering\camera.cpp" />
+    <ClCompile Include="..\src\rendering\lighting.cpp" />
+    <ClCompile Include="..\src\rendering\material.cpp" />
+    <ClCompile Include="..\src\rendering\mesh.cpp" />
+    <ClCompile Include="..\src\rendering\renderingEngine.cpp" />
+    <ClCompile Include="..\src\rendering\shader.cpp" />
+    <ClCompile Include="..\src\rendering\texture.cpp" />
+    <ClCompile Include="..\src\rendering\window.cpp" />
+    <ClCompile Include="..\src\testing.cpp" />
+    <ClCompile Include="..\src\staticLibs\stb_image.c">
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>

@@ -1,217 +1,217 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\main.cpp">
+    <ClCompile Include="..\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\physics\aabb.cpp">
+    <ClCompile Include="..\src\physics\aabb.cpp">
       <Filter>Source Files\physics</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\physics\boundingSphere.cpp">
+    <ClCompile Include="..\src\physics\boundingSphere.cpp">
       <Filter>Source Files\physics</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\physics\collider.cpp">
+    <ClCompile Include="..\src\physics\collider.cpp">
       <Filter>Source Files\physics</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\physics\physicsEngine.cpp">
+    <ClCompile Include="..\src\physics\physicsEngine.cpp">
       <Filter>Source Files\physics</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\physics\plane.cpp">
+    <ClCompile Include="..\src\physics\plane.cpp">
       <Filter>Source Files\physics</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\physics\physicsObject.cpp">
+    <ClCompile Include="..\src\physics\physicsObject.cpp">
       <Filter>Source Files\physics</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\staticLibs\stb_image.c">
+    <ClCompile Include="..\src\staticLibs\stb_image.c">
       <Filter>Source Files\staticLibs</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\camera.cpp">
+    <ClCompile Include="..\src\rendering\camera.cpp">
       <Filter>Source Files\rendering</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\lighting.cpp">
+    <ClCompile Include="..\src\rendering\lighting.cpp">
       <Filter>Source Files\rendering</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\material.cpp">
+    <ClCompile Include="..\src\rendering\material.cpp">
       <Filter>Source Files\rendering</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\mesh.cpp">
+    <ClCompile Include="..\src\rendering\mesh.cpp">
       <Filter>Source Files\rendering</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\renderingEngine.cpp">
+    <ClCompile Include="..\src\rendering\renderingEngine.cpp">
       <Filter>Source Files\rendering</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\shader.cpp">
+    <ClCompile Include="..\src\rendering\shader.cpp">
       <Filter>Source Files\rendering</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\texture.cpp">
+    <ClCompile Include="..\src\rendering\texture.cpp">
       <Filter>Source Files\rendering</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\window.cpp">
+    <ClCompile Include="..\src\rendering\window.cpp">
       <Filter>Source Files\rendering</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\components\freeLook.cpp">
+    <ClCompile Include="..\src\components\physicsEngineComponent.cpp">
       <Filter>Source Files\components</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\components\freeMove.cpp">
+    <ClCompile Include="..\src\components\physicsObjectComponent.cpp">
       <Filter>Source Files\components</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\components\physicsEngineComponent.cpp">
-      <Filter>Source Files\components</Filter>
-    </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\components\physicsObjectComponent.cpp">
-      <Filter>Source Files\components</Filter>
-    </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\coreEngine.cpp">
+    <ClCompile Include="..\src\core\coreEngine.cpp">
       <Filter>Source Files\core</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\entity.cpp">
+    <ClCompile Include="..\src\core\entity.cpp">
       <Filter>Source Files\core</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\game.cpp">
+    <ClCompile Include="..\src\core\game.cpp">
       <Filter>Source Files\core</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\input.cpp">
+    <ClCompile Include="..\src\core\input.cpp">
       <Filter>Source Files\core</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\mappedValues.cpp">
+    <ClCompile Include="..\src\core\mappedValues.cpp">
       <Filter>Source Files\core</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\math3d.cpp">
+    <ClCompile Include="..\src\core\math3d.cpp">
       <Filter>Source Files\core</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\profiling.cpp">
+    <ClCompile Include="..\src\core\profiling.cpp">
       <Filter>Source Files\core</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\testing.cpp">
+    <ClCompile Include="..\src\testing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\timing.cpp">
+    <ClCompile Include="..\src\core\timing.cpp">
       <Filter>Source Files\core</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\transform.cpp">
+    <ClCompile Include="..\src\core\transform.cpp">
       <Filter>Source Files\core</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\util.cpp">
+    <ClCompile Include="..\src\core\util.cpp">
       <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\components\freeMove.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\components\freeLook.cpp">
+      <Filter>Source Files\components</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\physics\aabb.h">
+    <ClInclude Include="..\src\physics\aabb.h">
       <Filter>Source Files\physics</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\physics\boundingSphere.h">
+    <ClInclude Include="..\src\physics\boundingSphere.h">
       <Filter>Source Files\physics</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\physics\collider.h">
+    <ClInclude Include="..\src\physics\collider.h">
       <Filter>Source Files\physics</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\physics\intersectData.h">
+    <ClInclude Include="..\src\physics\intersectData.h">
       <Filter>Source Files\physics</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\physics\physicsObject.h">
+    <ClInclude Include="..\src\physics\physicsObject.h">
       <Filter>Source Files\physics</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\physics\physicsEngine.h">
+    <ClInclude Include="..\src\physics\physicsEngine.h">
       <Filter>Source Files\physics</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\physics\plane.h">
+    <ClInclude Include="..\src\physics\plane.h">
       <Filter>Source Files\physics</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\staticLibs\simdaccel.h">
+    <ClInclude Include="..\src\staticLibs\simdaccel.h">
       <Filter>Source Files\staticLibs</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\staticLibs\simddefines.h">
+    <ClInclude Include="..\src\staticLibs\simddefines.h">
       <Filter>Source Files\staticLibs</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\staticLibs\simdemulator.h">
+    <ClInclude Include="..\src\staticLibs\simdemulator.h">
       <Filter>Source Files\staticLibs</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\staticLibs\stb_image.h">
+    <ClInclude Include="..\src\staticLibs\stb_image.h">
       <Filter>Source Files\staticLibs</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\staticLibs\x86simdaccel.h">
+    <ClInclude Include="..\src\staticLibs\x86simdaccel.h">
       <Filter>Source Files\staticLibs</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\camera.h">
+    <ClInclude Include="..\src\rendering\camera.h">
       <Filter>Source Files\rendering</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\lighting.h">
+    <ClInclude Include="..\src\rendering\lighting.h">
       <Filter>Source Files\rendering</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\material.h">
+    <ClInclude Include="..\src\rendering\material.h">
       <Filter>Source Files\rendering</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\mesh.h">
+    <ClInclude Include="..\src\rendering\mesh.h">
       <Filter>Source Files\rendering</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\renderingEngine.h">
+    <ClInclude Include="..\src\rendering\renderingEngine.h">
       <Filter>Source Files\rendering</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\shader.h">
+    <ClInclude Include="..\src\rendering\shader.h">
       <Filter>Source Files\rendering</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\texture.h">
+    <ClInclude Include="..\src\rendering\texture.h">
       <Filter>Source Files\rendering</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\rendering\window.h">
+    <ClInclude Include="..\src\rendering\window.h">
       <Filter>Source Files\rendering</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\components\freeLook.h">
+    <ClInclude Include="..\src\components\freeMove.h">
       <Filter>Source Files\components</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\components\freeMove.h">
+    <ClInclude Include="..\src\components\meshRenderer.h">
       <Filter>Source Files\components</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\components\meshRenderer.h">
+    <ClInclude Include="..\src\components\physicsEngineComponent.h">
       <Filter>Source Files\components</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\components\physicsEngineComponent.h">
+    <ClInclude Include="..\src\components\physicsObjectComponent.h">
       <Filter>Source Files\components</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\components\physicsObjectComponent.h">
-      <Filter>Source Files\components</Filter>
-    </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\coreEngine.h">
+    <ClInclude Include="..\src\core\coreEngine.h">
       <Filter>Source Files\core</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\entity.h">
+    <ClInclude Include="..\src\core\entity.h">
       <Filter>Source Files\core</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\entityComponent.h">
+    <ClInclude Include="..\src\core\entityComponent.h">
       <Filter>Source Files\core</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\game.h">
+    <ClInclude Include="..\src\core\game.h">
       <Filter>Source Files\core</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\input.h">
+    <ClInclude Include="..\src\core\input.h">
       <Filter>Source Files\core</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\mappedValues.h">
+    <ClInclude Include="..\src\core\mappedValues.h">
       <Filter>Source Files\core</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\math3d.h">
+    <ClInclude Include="..\src\core\math3d.h">
       <Filter>Source Files\core</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\profiling.h">
+    <ClInclude Include="..\src\core\profiling.h">
       <Filter>Source Files\core</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\referenceCounter.h">
+    <ClInclude Include="..\src\core\referenceCounter.h">
       <Filter>Source Files\core</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\timing.h">
+    <ClInclude Include="..\src\core\timing.h">
       <Filter>Source Files\core</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\transform.h">
+    <ClInclude Include="..\src\core\transform.h">
       <Filter>Source Files\core</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\core\util.h">
+    <ClInclude Include="..\src\core\util.h">
       <Filter>Source Files\core</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\3DEngine.h">
+    <ClInclude Include="..\src\3DEngine.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Users\gentle\GitHub\3DEngineCpp\src\testing.h">
+    <ClInclude Include="..\src\testing.h">
       <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\components\freeLook.h">
+      <Filter>Source Files\components</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
