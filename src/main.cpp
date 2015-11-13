@@ -169,7 +169,7 @@ int main()
 	//window.SetFullScreen(true);
 	
 	CoreEngine engine(60, &window, &renderer, &game);
-	engine.Start();
+ 	engine.Start();
 	
 	//window.SetFullScreen(false);
 
